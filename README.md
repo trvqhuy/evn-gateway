@@ -21,7 +21,7 @@ Sau một thời gian duy trì các phiên bản trước của EVN Gateway, mì
 Nút nghẽn lớn nhất của toàn bộ dự án chính là CAPTCHA EVN. Vì vậy, mình cần một giải pháp:
 
 - ✅ **Gọn nhẹ**, deploy được trên **Render Free Tier (1 vCPU + ~512MB RAM)**
-- ✅ **Độ chính xác cao** (>80%) với CAPTCHA EVN vốn bị méo, dính chữ, nhiễu hạt
+- ✅ **Độ chính xác cao** với CAPTCHA EVN vốn bị méo, dính chữ, nhiễu hạt
 - ✅ **Tốc độ xử lý nhanh**, đủ dùng trong thực tế
 - ✅ **Scale tốt cho vài ngàn user**, mà **không phải trả tiền cloud**
 
@@ -76,7 +76,7 @@ Mình chuyển hướng sang Deep Learning sau khi nhận ra chỉ có cách nà
 Sau tối ưu:
 
 - ⚡ **Inference trung bình < 1.0s** - deploy trên **Render Free Tier (1 vCPU + 512MB RAM)**
-- 🎯 **Độ chính xác đạt 85–99%**, tuỳ độ méo của ảnh
+- 🎯 **Độ chính xác đạt >85%**, tuỳ độ méo của ảnh
 - 💾 Mô hình chỉ ~2MB, deploy cực nhẹ
 - 🔁 Scale tốt cho hàng ngàn người dùng (nếu sử dụng các kỹ thuật backend-side hợp lý)
 
